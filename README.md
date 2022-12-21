@@ -2,6 +2,8 @@
 
 This python script reimplements the Potential Release Area proposed by Veitinger et al. (2016) and modified by Sharp et al., (2018) using python libraries.
 
+NB! Roughness is removed from this version, so only valid for rasters with cells >10m
+
 ### References:
 
 https://github.com/jocha81/Avalanche-release
