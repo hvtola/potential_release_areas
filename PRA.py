@@ -256,7 +256,4 @@ if __name__ == "__main__":
     winddir = int(sys.argv[5])
     windtol = int(sys.argv[6])
     forest_type = str(sys.argv[7])
-    if forest_type in ['pcc', 'stems']:
-        PRA(DEM, FOREST, radius, prob, winddir, windtol, forest_type)
-    if forest_type in ['no_forest']:
-        PRA(DEM, radius, prob, winddir, windtol, forest_type)
+    PRA(DEM, FOREST, radius, prob, winddir, windtol, forest_type)
